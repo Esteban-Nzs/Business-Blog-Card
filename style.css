@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Sora:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Poppins&family=Sora:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2F5F9;
+
+
+}
+
+.main {
+    width: 410px;
+    margin: 168px auto;
+    padding: 3px;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.container-img {
+    width: 100%;
+}
+
+.container-img,
+img {
+    width: 100%;
+    display: block;
+    border-radius: 16px 16px 0 px 0px;
+}
+
+.body {
+    margin: 10px 20px;
+
+}
+
+h1 {
+    font-family: Poppins;
+    font-size: 24px;
+    margin-top: 0px;
+}
+
+p {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+hr {
+    margin-left: -3px;
+    width: 410px;
+    border: none;
+
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 20px;
+}
+
+.logo {
+    width: 45px;
+    height: 45px;
+    background-color: #f2f5f9;
+    padding: 1px;
+    border-radius: 100% 100%;
+}
+
+.logo>img {
+    margin: auto;
+    border-radius: 100% 100%;
+}
+
+.bottom-title {
+    margin-left: 3px;
+    margin-top: 4px;
+}
+
+.bottom-title>span {
+    margin: 0 0 0 0;
+    margin-top: 500px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.bottom-title>p{
+    margin: 0 0 0 0;
+    margin-top: -3px;
+    font-family: Lato;
+    font-size: 12px;
+}
+
+.overlay{
+    position: relative;
+    top: -60px;
+    margin-bottom: -70px;
+    border-left: none;
+}
